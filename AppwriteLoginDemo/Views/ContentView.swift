@@ -43,7 +43,7 @@ struct ContentView: View {
                                     showAlert = true
                                 }
                                 else {
-                                    let value = try await appwrite.onRegister(viewModel.email, viewModel.password)
+                                    let value = await appwrite.onRegister(viewModel.email, viewModel.password)
                                     if value {
                                         commonText = register
                                         isLoginSuccessful = true
@@ -72,7 +72,7 @@ struct ContentView: View {
                                     alertMessage = "Please enter both email and password."
                                     showAlert = true
                                 } else {
-                                    let value = try await appwrite.onLogin(viewModel.email, viewModel.password)
+                                    let value = await appwrite.onLogin(viewModel.email, viewModel.password)
                                     if value {
                                         commonText = login
                                         isLoginSuccessful = true

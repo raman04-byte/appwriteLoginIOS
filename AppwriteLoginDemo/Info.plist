@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>AppwriteLoginDemo want to use your camera</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -11,7 +13,7 @@
 			<string>io.appwrite</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>appwrite-callback-6683c5940013e4df2251</string>
+				<string>appwrite-callback-671a8dff001c5c9b137b</string>
 			</array>
 		</dict>
 	</array>
